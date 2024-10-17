@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+         * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    }
+        #sec-3 {
+        height: 100vh;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .container3 {
+        height: 70%;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(223, 203, 18, 0.963);
+        box-shadow: 10px 10px 8px #000;
+        border-radius: 20px;
+    }
+
+    .container3 .content3 {
+        width: 55%;
+        height: 70%;
+        padding: 10px;
+    }
+
+    .content3 h1 {
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 10px;
+        color: rgb(26, 24, 22);
+
+    }
+
+    .content3 p {
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+    #sec-3 img:hover{
+        transform: scale(1);
+        transition: 0.5s cubic-bezier(0.6,0.03,0.28,0.98);
+    }
+    #sec-3 img {
+        transition: 0.5s cubic-bezier(0.6,0.03,0.28,0.98);
+        transform: scale(0.8);
+        height: 250px;
+        width: 450px;
+        filter: drop-shadow(20px 20px 15px black);
+    }
+    </style>
+     <section class="page" id="sec-3">
+        <div class="container3">
+            <div class="content3">
+                <h1> Tigers</h1>
+                <p>
+                    The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has
+                    a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly
+                    vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise
+                    only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands.
+                </p>
+            </div>
+            <img src="tiger.png" height="470px">
+        </div>
+    </section>
+</body>
+</html>

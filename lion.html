@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    }
+    #sec-2 {
+        height: 100vh;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .container2 {
+        height: 70%;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(223, 203, 18, 0.963);
+        box-shadow: 10px 10px 8px #000;
+        border-radius: 20px;
+    }
+
+    .container2 .content2 {
+        width: 55%;
+        height: 70%;
+        padding: 10px;
+    }
+
+    .content2 h1 {
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 10px;
+        margin-left: 29px;
+        color: rgb(26, 24, 22);
+
+    }
+
+    .content2 p {
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 30px;
+
+    }
+    #sec-2 img:hover{
+        transform: scale(1);
+        transition: 0.5s cubic-bezier(0.6,0.03,0.28,0.98);
+    }
+    #sec-2 img {
+        transition: 0.5s cubic-bezier(0.6,0.03,0.28,0.98);
+        transform: scale(0.8);
+   
+        height: 400px;
+        filter: drop-shadow(18px 12px 10px black);
+    }
+</style>
+    <section class="page" id="sec-2">
+        <div class="container2">
+            <div class="content2">
+                <h1> Lions</h1>
+                <p>
+                    The lion (Panthera leo) is a large cat of the genus Panthera, native to Africa and India. It has a
+                    muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip
+                    of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent
+                    mane. It is a social species, forming groups called prides. A lion's pride consists of a few adult
+                    males, related females, and cubs.
+                </p>
+            </div>
+            <img src="./lion2.png" height="470px">
+        </div>
+    </section>
+</body>
+</html>

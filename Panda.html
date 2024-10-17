@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    }
+
+    #sec-1 {
+        height: 100vh;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+        height: 70%;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(223, 203, 18, 0.963);
+        box-shadow: 10px 10px 8px #000;
+        border-radius: 20px;
+    }
+
+    .container .content {
+        width: 55%;
+        height: 70%;
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 10px;
+        color: rgb(26, 24, 22);
+
+    }
+
+    .content p {
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+
+    #sec-1 img:hover{
+        transform: scale(1);
+        transition: 0.5s cubic-bezier(0.6,0.03,0.28,0.98);
+    }
+    #sec-1 img {
+        transition: 0.5s cubic-bezier(0.6,0.03,0.28,0.98);
+        transform: scale(0.8);
+        height: 480px;
+        filter: drop-shadow(12px 12px 10px black);
+    }
+
+    
+
+    
+
+</style>
+
+<body>
+    <section class="page" id="sec-1">
+        <div class="container">
+            <div class="content">
+                <h1> Pandas</h1>
+                <p>
+                    The giant panda (Ailuropoda melanoleuca), also known as the panda bear or simply panda, is a bear
+                    species endemic to China. It is characterised by its white coat with black patches around the eyes,
+                    ears, legs and shoulders. Its body is rotund; adult individuals weigh 100 to 115 kg (220 to 254 lb)
+                    and are typically 1.2 to 1.9 m (3 ft 11 in to 6 ft 3 in) long. It is sexually dimorphic, with males
+                    being typically 10 to 20% larger than females. A thumb is visible on its forepaw, which helps in
+                    holding bamboo in place for feeding.
+
+
+                </p>
+            </div>
+            <img src="./panda-removebg-preview.png" height="470px">
+        </div>
+    </section>
+    
+   
+   
+</body>
+
+</html>
